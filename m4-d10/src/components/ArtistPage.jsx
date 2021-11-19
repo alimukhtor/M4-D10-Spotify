@@ -1,6 +1,6 @@
 const ArtistPage =()=> {
   return(
-    <div className="col-12 px-0 mx-0 col-lg-10 main-page-content">
+    <div className="col-12 px-0 mx-0 col-lg-12 main-page-content">
 
         <div className="row album-img-header">
             <div className="col-12">
@@ -16,7 +16,6 @@ const ArtistPage =()=> {
                     </div>
 
                     <div className="account">
-                        // Small button groups (default and split)
                         <div className="btn-group">
                             <button className="btn btn-sm bg-black dropdown-toggle rounded-pill" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-person-circle" viewBox="0 0 16 16">
@@ -35,7 +34,7 @@ const ArtistPage =()=> {
                 <div className="album-info">
                     <div className="row m-0 verified-artist-badge">
 
-                        <img src="../assets/verified.jpg" width="50" height="50" alt="logo-verified"/> <h6 className="d-inline-block mb-0 ml-2">Verified Artist</h6>
+                        <img src="./assets/verified.jpg" width="50" height="50" alt="logo-verified"/> <h6 className="d-inline-block mb-0 ml-2">Verified Artist</h6>
                     </div>
                     <p className="artist-queen"><strong>Queen</strong></p>
                     <p>37,120,733 monthly listeners</p>
@@ -45,7 +44,6 @@ const ArtistPage =()=> {
             </div>
         </div>
 
-          // Artist Header section
 
             <div className="bg-wrapper">
             <div className="row py-2 pl-5">
@@ -56,7 +54,6 @@ const ArtistPage =()=> {
                 </div>
             </div>
 
-               // Ali
             <div className="row">
                 <div className=" col-12 col-lg-9 pl-5">
 
@@ -84,12 +81,12 @@ const ArtistPage =()=> {
                     <div className="row">
 
                         <div className="col-3 col-lg-12 col-xl-3">
-                            <img className="artist-pick-img" src="../assets/cards/7.jpg" alt=""/>
+                            <img className="artist-pick-img" src="./assets/cards/7.jpg" alt=""/>
                         </div>
 
                         <div className="col-9 col-lg-12 col-xl-9">
                             <div className="d-flex posted-by">
-                                <img src="../assets/cards/8.jpg" className="mr-2" id ="img-Artist" alt=""/>
+                                <img src="./assets/cards/8.jpg" className="mr-2" id ="img-Artist" alt=""/>
                                 <p className="light-gray-text smaller-text font-weight-bold mb-1" id="posted-ByArtist">Posted By Queen</p>
                             </div>
                             <h6 className="mb-1" id="bestOfArtist">Queen</h6>
