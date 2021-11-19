@@ -31,7 +31,7 @@ const AlbumPage =()=> {
 
                         <div className="d-flex">
 
-                            <img className="ml-5 d-none d-sm-block" src="../assets/cards/52.jpg" alt=""/>
+                            <img className="ml-5 d-none d-sm-block" src="./assets/cards/52.jpg" alt=""/>
                             <div className="d-flex flex-column album-content-text ml-4">
                                 <p className="album-badge d-none d-sm-block text-white">PLAYLIST</p>
                                 <h3 className="album-title">Bohemian Rhapsody</h3>
