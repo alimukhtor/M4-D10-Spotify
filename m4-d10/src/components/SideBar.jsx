@@ -3,7 +3,6 @@ const SideBar =()=>{
   const location = useLocation()
   return(
 
-<div class="container-fluid">
     <div className="row">
         <div className="col-12">
             <div className="row">
@@ -27,18 +26,12 @@ const SideBar =()=>{
                                 <p>Your Library</p>
                             </a>
                             <Link to="/album-page">
-                            <div className={'nav-link' + (location.pathname === '/album-page' ? ' active' : '')}>Albumsali</div>
+                            <div className={'nav-link' + (location.pathname === '/album-page' ? ' active' : '')}>Albums</div>
                             </Link>
-                            <a href="../albums/albums.html" className="d-flex py-2">
-                                <i className="bi bi-vinyl mx-3"></i>
-                                <p>Albums</p>
-                            </a>
 
-                            <a href="../artists/artists.html" className="d-flex py-2">
-                                <i className="bi bi-music-note-beamed mx-3"></i>
-                                <p>Artists</p>
-                            </a>
-
+                            <Link to="/artist-page">
+                            <div className={'nav-link' + (location.pathname === '/artist-page' ? ' active' : '')}>Artist</div>
+                            </Link>
                             <a href="../favourites/favourites.html" className="d-flex py-2">
                                 <i className="bi bi-heart-fill mx-3"></i>
                                 <p>Liked Songs</p>
@@ -370,7 +363,6 @@ const SideBar =()=>{
             </div>
 
         </div>
-    </div>
     </div>
     </div>
   )
